@@ -16,12 +16,12 @@
    :dynamodb-local {:port 6798
                     :in-memory? true
                     :shared-db? true}
-   :profiles {:dev {:dependencies [[javax.servlet/javax.servlet-api "3.1.0"]
-                                   [lein-metajar "0.1.1"]
-                                   [lein-set-version "0.4.1"]
-                                   [clj-plugin "0.6.2"]
-                                   [lein-dynamodb-local "0.2.10"]]
-                    :plugins [[lein-ring "0.12.0"]]}
+   :profiles {:dev {:dependencies [[javax.servlet/javax.servlet-api "3.1.0"]]
+                    :plugins [[lein-ring "0.12.0"]
+                              [lein-metajar "0.1.1"]
+                              [lein-set-version "0.4.1"]
+                              [clj-plugin "0.6.2"]
+                              [lein-dynamodb-local "0.2.10"]]}
               :metajar {:direct-linking true
                         :aot :all
                         :source-paths   ["env/prod/clj"]
