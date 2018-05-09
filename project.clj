@@ -4,6 +4,7 @@
                   [metosin/compojure-api "1.1.11"]]
    :ring {:handler clj1.handler/app}
    :jar-name "server.jar"
+   :target-path "target/%s/"
    :repositories [["releases" {:url      "https://sforzando.artifactoryonline.com/sforzando/libs-release-local"
                                :username [:gpg :env/artifactory_user]
                                :password [:gpg :env/artifactory_pwd]}]
