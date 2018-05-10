@@ -8,7 +8,7 @@
    (s/optional-key :description) s/Str
    :size (s/enum :L :M :S)
    :origin {:country (s/enum :FI :PO)
-            :city s/Str}})
+       :city s/Str}})
 
 (def app
   (api
@@ -23,7 +23,7 @@
      :tags ["api"]
 
      (GET "/plus" []
-       :return {:result Long}
+         :return {:result Long}
        :query-params [x :- Long, y :- Long]
        :summary "adds two numbers together"
        (ok {:result (+ x y)}))
