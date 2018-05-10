@@ -20,7 +20,7 @@
             :tags [{:name "api", :description "some apis"}]}}}
 
    (context "/api" []
-     :tags ["api"]
+           :tags ["api"]
 
      (GET "/plus" []
        :return {:result Long}
