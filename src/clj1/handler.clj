@@ -11,9 +11,7 @@
             :city s/Str}})
 
 (defn get-pizza []
-  {:pizza :pie
-   :with :pepperoni
-   :and :sausage})
+  {:pizza :pie})
 
 (def app
   (api
