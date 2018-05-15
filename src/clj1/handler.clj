@@ -10,6 +10,9 @@
    :origin {:country (s/enum :FI :PO)
             :city s/Str}})
 
+(defn get-pizza []
+  {:pizza :pie})
+
 (def app
   (api
    {:swagger
@@ -32,4 +35,4 @@
        :return Pizza
        :body [pizza Pizza]
        :summary "echoes a Pizza"
-       (ok pizza)))))
+       (ok (get-pizza))))))
