@@ -15,7 +15,6 @@
    :with :mushrooms
    :and :olives})
 
-
 (def app
   (api
    {:swagger
@@ -23,8 +22,7 @@
      :spec "/swagger.json"
      :data {:info {:title "Clj1"
                    :description "Compojure Api example"}
-               :tags [{:name "api", :description "some apis"}]}}}
-  
+            :tags [{:name "api", :description "some apis"}]}}}
 
    (context "/api" []
      :tags ["api"]
