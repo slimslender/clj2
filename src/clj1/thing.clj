@@ -1,3 +1,3 @@
 (ns thing)
 
-(defn thing1 [] 1)
+(defn thing1 [] 2)
