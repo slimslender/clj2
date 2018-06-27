@@ -19,7 +19,7 @@
    {:swagger
     {:ui "/"
      :spec "/swagger.json"
-         :data {:info {:title "Clj1"
+     :data {:info {:title "Clj1"
                    :description "Compojure Api example"}
             :tags [{:name "api", :description "some apis"}]}}}
 
