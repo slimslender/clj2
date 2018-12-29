@@ -1,3 +1,2 @@
-(ns thing)
+(ns clj1.thing)
 
-(defn thing1 [] 1)
