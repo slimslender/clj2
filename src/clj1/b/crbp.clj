@@ -1,3 +1,3 @@
 (ns clj1.b.crbp)
 
-(defn ^:fingerprint cheezits [] 6)
+(defn ^:fingerprint cheezits [] 5)
