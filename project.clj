@@ -1,7 +1,7 @@
  (defproject clj2 "0.1.0-SNAPSHOT"
    :description "IXME: write description"
    :dependencies [[org.clojure/clojure "1.10.0"]
-                  [metosin/compojure-api "1.1.12"]
+                  [metosin/compojure-api "1.1.13"]
                   [clj-time "0.14.3" :exclusions [org.slf4j/slf4j-log4j1 commons-logging]]]
 
    :ring {:handler clj1.handler/app}
