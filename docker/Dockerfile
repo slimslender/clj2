@@ -1,4 +1,4 @@
-FROM sforzando-dockerv2-local.jfrog.io/java-atomist:0.9.0-20171216032235
+FROM sforzando-dockerv2-local.jfrog.io/java-atomist:0.11.2-20190708225156
 
 MAINTAINER Jim Clark <jim@atomist.com>
 
